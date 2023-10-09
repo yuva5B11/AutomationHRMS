@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-09T09:42:57 IST" name="Orange HRMS with Cucumber" finished-at="2023-10-09T09:43:50 IST" duration-ms="52420">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.empCreationTest@6e535154]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-09T09:42:57 IST" name="admin login test cases" finished-at="2023-10-09T09:43:33 IST" duration-ms="35608">
+      <class name="testrunners.AdminLoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:42:58 IST" name="setUpClass" finished-at="2023-10-09T09:42:58 IST" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58c42c8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:42:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-09T09:43:11 IST" duration-ms="12541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin Login with Valid Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRMS Admin Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:43:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-09T09:43:18 IST" duration-ms="7309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin Login with Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRMS Admin Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:43:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-09T09:43:26 IST" duration-ms="7674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin Login with Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRMS Admin Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:43:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-09T09:43:33 IST" duration-ms="7489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin Login with Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRMS Admin Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunners.AdminLoginTest@7188af83]" started-at="2023-10-09T09:43:33 IST" name="tearDownClass" finished-at="2023-10-09T09:43:33 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.AdminLoginTest -->
+    </test> <!-- admin login test cases -->
+    <test started-at="2023-10-09T09:43:33 IST" name="Emp creation Test case" finished-at="2023-10-09T09:43:50 IST" duration-ms="16773">
+      <class name="testrunners.empCreationTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunners.empCreationTest@6e535154]" started-at="2023-10-09T09:43:33 IST" name="setUpClass" finished-at="2023-10-09T09:43:33 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3af236d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.empCreationTest@6e535154]" started-at="2023-10-09T09:43:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-09T09:43:50 IST" duration-ms="16757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New employee creation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["New Emp creation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunners.empCreationTest@6e535154]" started-at="2023-10-09T09:43:50 IST" name="tearDownClass" finished-at="2023-10-09T09:43:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.empCreationTest -->
+    </test> <!-- Emp creation Test case -->
+  </suite> <!-- Orange HRMS with Cucumber -->
+</testng-results>
